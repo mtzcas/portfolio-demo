@@ -218,3 +218,51 @@ justify-content: space-evenly;
   }
 }
 
+.container-contact{
+  padding: 3em;
+  margin: 0 auto;
+}
+
+.container-contact img{
+  width: 750px;
+  height: 700px;
+  bottom: 0px;
+}
+
+.contact-headings h2{
+  font-size: 3em;
+}
+
+.form-control{
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin-top: 2em;
+}
+
+.form-control input{
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+
+.form-control textarea{
+  height: 150px;
+  background: none;
+  padding: 1.5em;
+  border: none;
+  border: 1px solid #fff;
+}
+
+footer{
+  text-align: center;
+  padding: 40px;
+  background-color: #191c32;
+  color: #fff;
+}
+.copyright{
+font-size: 13px;
+margin: 20px;
+}
